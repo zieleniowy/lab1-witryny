@@ -1,23 +1,31 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import dictionary from '../src/dictionary';
+import AboutMeCard from '../src/AboutMeCard';
+import {Container, Box, Grid, Typography, Link} from '@material-ui/core';
+import CircleCard from '../src/CircleCard';
+import { MaterialUI, NextJS } from '../src/customIcons';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
+    <Container>
       <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
+        <Grid container>
+            <Grid xs={12} md={6}>
+              <Box pb={4}>
+                <AboutMeCard backgroundSrc={'/img/background.jpg'} profileSrc={'/img/profile.jpg'} i18n={dictionary.aboutMe} />
+              </Box>
+            </Grid>
+            <Grid xs={12} md={6}>
+              <Box pb={4}>
+                <CircleCard color="secondary" icon={MaterialUI} header="Material-UI">
+                  <Typography>{dictionary.materialAbout} <Link href="https://material-ui.com" target="_blank">Link do Material-UI</Link></Typography>
+                </CircleCard>
+              </Box>
+              <CircleCard color="primary" icon={NextJS} header="NextJS">
+                <Typography>{dictionary.nextJSAbout} <Link href="https://nextjs.org" target="_blank">Link do NextJS</Link></Typography>
+              </CircleCard>
+            </Grid>
+        </Grid>
       </Box>
     </Container>
   );

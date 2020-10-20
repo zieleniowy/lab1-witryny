@@ -17,6 +17,9 @@ const theme = createMuiTheme({
       default: '#fff',
     },
   },
+  zindex: {
+    card: 1000,
+  }
 });
 
 export default theme;
