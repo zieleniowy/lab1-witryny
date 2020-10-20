@@ -18,4 +18,4 @@ module.exports = {
 ```
 ## pokaz
 
-![GitHub Logo](/public/img/Zrzut ekranu 2020-10-20 o 22.59.25.png)
+![GitHub Logo](/public/img/glowna.png)
