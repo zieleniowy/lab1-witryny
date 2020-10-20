@@ -19,10 +19,13 @@ module.exports = {
 ## pokaz
 
 Strona Główna - po lewej widać moją osobę, a po prawej karty z wykorzystanymi technologiami.
-![GitHub Logo](/public/img/glowna.png)
+![Strona Główna](/public/img/glowna.png)
 
-Strona z Listem, mam nadzieję, że nikt nie skopiował takiego samego listu.
-![GitHub Logo](/public/img/list.png)
+Strona z listem, mam nadzieję, że nikt nie skopiował takiego samego listu.
+![Strona z listem](/public/img/list.png)
 
-Strona z podrecznika - tabela stworzona przy pomocy biblioteki [lub sklonuj repozytorium](https://chartjs.org):
-![GitHub Logo](/public/img/podrecznik.png)
+Strona z podrecznika - tabela stworzona przy pomocy biblioteki [Chart.js](https://chartjs.org):
+![strona z podręcznika](/public/img/podrecznik.png)
+
+Najprostszy formularz w internecie
+![GitHub Logo](/public/img/formularz.png)
