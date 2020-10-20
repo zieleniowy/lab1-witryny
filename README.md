@@ -18,4 +18,8 @@ module.exports = {
 ```
 ## pokaz
 
+Strona Główna - po lewej widać moją osobę, a po prawej karty z wykorzystanymi technologiami.
 ![GitHub Logo](/public/img/glowna.png)
+
+Strona z Listem, mam nadzieję, że nikt nie skopiował takiego samego listu.
+![GitHub Logo](/public/img/list.png)
