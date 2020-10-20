@@ -23,3 +23,6 @@ Strona Główna - po lewej widać moją osobę, a po prawej karty z wykorzystany
 
 Strona z Listem, mam nadzieję, że nikt nie skopiował takiego samego listu.
 ![GitHub Logo](/public/img/list.png)
+
+Strona z podrecznika - tabela stworzona przy pomocy biblioteki [lub sklonuj repozytorium](https://chartjs.org):
+![GitHub Logo](/public/img/podrecznik.png)
